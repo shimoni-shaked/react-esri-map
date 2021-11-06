@@ -21,7 +21,7 @@ import {
 export const EsriMap = ({ basemap, center }) => {
   const [zoom, setZoom] = useState(8);
   useEffect(() => {
-    if (zoom >= 5) console.log("zoooom");
+    if (zoom >= 5) console.log("this is below 5");
   }, [zoom]);
 
   ////// logs callback
